@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<background>
+    <back><a href="{% url 'logout'%}"><logout><text>войти</text></logout></a></back>
+    <fot><logo>Market Gadjet</logo></fot>
+    <sep></sep>
+    <cap>
+    <message><a href="{% url 'sup'%}"><col_1>Поддержка</col_1></a></message><message><a href="{% url 'dev'%}"><col_1>Для разработчиков</col_1></a></message><message><a href="{% url 'shop'%}"><col_1>Магазин</col_1></a></message>
+    </cap>
+    <content>
+        <form id="form" action="https://www.alfaportal.ru/card2card/ptpl/alfaportal/initial.html"
+    method="post" target="_blank" class="payform">
+    <input type="hidden" value="1111111111111111" name="tfr_card_dst_num" />
+    <span>Сумма платежа (руб.): <input type="number" min="10" max="999999"
+        name="tfr_amount" value="0" size="6" maxlength="6" autocomplete="off" />
+        <input type="submit" value="Оплатить переводом c карты" />
+    </span>
+</form>
+    </content>
+    <sep></sep>
+    <foot><ddc>Покупай игры с Market Gadjet</ddc></foot>
+</background>
+</body>
+</html>

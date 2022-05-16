@@ -1,0 +1,217 @@
+@move {
+    from { left: 0; }
+    to { left: 300px; }
+}
+background {
+    background-image: url('images/background.jpg');
+    width: 90;
+    height: 1500px;
+    }
+
+a{
+    text-decoration: none;
+}
+col_1{
+    color: #a400f0;
+    text-decoration: none;
+}
+message{
+    display: inline;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #d154f0;
+    color: black;
+    text-decoration: none;
+}
+cap {
+    display: block;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 35px;
+}
+content {
+    display: block;
+    background-color: #6b549c;
+    width: 90;
+    min-height: 450px;
+}
+fot {
+    display: block;
+    padding-top: 15px;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 50px;
+}
+logo{
+    color: #b1c9bf;
+    display: inline;
+    font-size: 30px;
+    margin-left: 70px;
+}
+sep{
+    display: block;
+    background-color: black;
+    height: 2px;
+}
+back{
+    display:flex;
+    background-color: black;
+    height: 25px;
+}
+logout{
+    background-color: #420359;
+    height: 25px;
+    width: 75px;
+    position: absolute;
+    right: 10px;
+    display: flex;
+}
+text{
+    padding-left: 20%;
+    vertical-align: middle;
+    color: #e1defc;
+}
+text{
+    display: block;
+    direction: column;
+}
+content-block{
+    display: flex;
+    height: 100px;
+}
+image{
+    height: 100px;
+    width: 100px;
+}
+par{
+    flex-direction: column;
+    height: 90px;
+    padding: 25px 25px 25px 25px;
+}
+pars{
+    padding-top: 10px;
+}
+button{
+
+}
+sep-blue{
+    display: block;
+    background-color: #37024f;
+    height: 2px;
+}
+ddc{
+    color: #b1c9bf;
+    display: inline;
+    font-size: 18px;
+    margin-left: 40px;
+}
+foot {
+    display: block;
+    padding-top: 15px;
+    background-image: url('images/back.jpg');
+    width: 80;
+    height: 100px;
+}
+text-content{
+    font-size: 20px;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: blue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+shop_but{
+    margin: 30px 30px 30px 30px;
+    height: 55px;
+    position: absolute;
+    left: 1200px;
+    font-size: 20px;
+}
+
+paragraph{
+    display: inline;
+
+    background-color: #9f87ff;
+    margin: 10px 10px 10px 10px;
+    margin-left: 100;
+    min-width: 300px;
+    height: 25px;
+    font-size: 25px;
+    position: relative;
+    right: -500px;
+    padding: 5px 5px 5px 5px;
+
+}
+sep-no{
+    display: block;
+    background-color: #42035908;
+    height: 10px;
+}
+shop_but_content_block
+{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: -36px;
+    top: 350px;
+}
+shop_but_content{
+    position: absolute;
+    font-size: 30px;
+}
+
+
+
+

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gadjet_shop</title>
+	<link rel="stylesheet" href="{% static 'css/style.css'%}" type="text/css">
+</head>
+<body>
+<background>
+    <back><a href="{% url 'logout'%}"><logout><text>войти</text></logout></a></back>
+    <fot><logo>Market Название</logo></fot>
+    <sep></sep>
+    <cap>
+    <message><a href="{% url 'sup'%}"><col_1>Поддержка</col_1></a></message><message><a href="{% url 'dev'%}"><col_1>Для разработчиков</col_1></a></message><message><a href="{% url 'shop'%}"><col_1>Магазин</col_1></a></message>
+    </cap>
+    <content>
+        <content-block>
+
+        <image>
+        <a href="{% url 'game_of_proj'%}"><img src="{% static 'css/images/ga.jpeg'%}"></a>
+        <par><div>150 руб</div><div><pars>Spice War</pars></div></par>
+        <shop_but><button type="submit" value="tin_can">купить</button></shop_but>
+        </image>
+        </content-block>
+
+        <sep-blue></sep-blue>
+        <content-block>
+
+        <image>
+        <a href="{% url 'tin_can'%}"><img src="{% static 'css/images/Tin_can.jpg'%}"></a>
+        <par><div>290 руб</div><div><pars>Tin can</pars></div></par>
+        <shop_but><button type="submit" value="tin_can">купить</button></shop_but>
+        </image>
+        </content-block>
+
+
+
+        <sep-blue></sep-blue>
+        <content-block>
+        <image>
+        <a href="{% url 'dorfromantik'%}"><img src="{% static 'css/images/Dorfromantik.jpg'%}"></a></a>
+        <par><div>499 руб</div><div><pars>Dorfromantik</pars></div></par>
+        <shop_but><button type="submit" value="dorfromantic">купить</button></shop_but>
+        </image>
+        </content-block>
+        <sep-blue></sep-blue>
+        <content-block>
+        <image>
+        <a href=""><img src="{% static 'css/images/Retrowave.jpg'%}"></a>
+        <par><div>399 руб</div><div><pars>Retrowave</pars></div></par>
+        <shop_but><button type="submit" value="retrowave">купить</button></shop_but>
+        </image>
+        </content-block>
+        <sep-blue></sep-blue>
+        <content-block>
+        <image>
+            <a href=""><img src="{% static 'css/images/Soundfall.jpg'%}"></a>
+        <par><div>299 руб</div><div><pars>Soundfall</pars></div></par>
+        <a href="http://qiwi.com/n/FELLKINGS"><shop_but><button type="submit" value="soundfall">купить</button></shop_but></a>
+        </image>
+        </content-block>
+        <sep-blue></sep-blue>
+        <sep-no></sep-no>
+        <paragraph><a href=""><ttk color="black">1</ttk></a></paragraph>
+        <paragraph><a href=""><ttk color="black">2</ttk></a></paragraph>
+        <paragraph><a href=""><ttk color="black">3</ttk></a></paragraph>
+        <paragraph><a href=""><ttk color="black">далее</ttk></a></paragraph>
+    </content>
+        <sep></sep>
+    <foot><ddc>Покупай игры с Market Название</ddc></foot>
+</background>
+</body>
+</body>
+</html>
