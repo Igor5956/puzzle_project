@@ -1,9 +1,9 @@
 from telebot import types
 import telebot
 
-bot = telebot.TeleBot('5221488288:AAHR4_qqgKWrWkDgbagc03HJ34HkzFLBPks')
+bot = telebot.TeleBot('')
 
-keyword_ = '2541-986-37'
+keyword_ = '00000000'
 
 @bot.message_handler(commands=['start'])
 def but(message):
